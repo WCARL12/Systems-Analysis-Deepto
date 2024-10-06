@@ -30,5 +30,5 @@ public class BankAccount {
             throw new IllegalArgumentException("Insufficient funds.");
         }
         balance -= amount;
-    }
-
+    };
+}
